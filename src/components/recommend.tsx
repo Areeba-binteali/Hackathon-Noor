@@ -1,17 +1,9 @@
-import Head from 'next/head';
-import { FaHeart } from "react-icons/fa";
-import { FaRegHeart } from "react-icons/fa";
+
 
 export default function Popular() {
     return (
         <div className="popular">
-            <Head>
-                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <title>Document</title>
-                <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-                <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet"></link>
-            </Head>
+           
             <main>
                 {/* <div className="pop-product">
                     <div className="prodd">
