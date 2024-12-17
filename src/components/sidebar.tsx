@@ -6,7 +6,7 @@ export default function Sidebar() {
             <section className="sidebar-main">
                 <div className="main-sec">
                     <div className="component1">
-                        <div className="small">
+                        <div className="small h">
                             <h1>TYPE</h1>
                         </div>
                         <div className="side">

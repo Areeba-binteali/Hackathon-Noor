@@ -606,30 +606,48 @@
     margin-left: -80px;
   }
 }
-.main-sec{
+.main-sec, .side-main{
   margin-left: 20px;
   padding-bottom: 100px;
 }
-.component1, .component2{
+.component1, .component2 ,.side-m{
   margin-bottom: 30px;
 }
-.small, .numbers{
+.small, .numbers, .s-head{
   color: #90A3BF;
 }
-.small{
+.small, .s-head{
   font-size: 12px;
   margin-bottom: 20px;
 }
-.side-text{
- margin-bottom: 10px;
+.side-text , .side-t{
+ margin-bottom: 15px;
 }
-.large-h, .side-text{
+.header-main{
+  border-bottom: 0.5px solid #caccd0;
+}
+.large-h, .side-text ,.side-t{
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 450;
   color: #596780;
 }
-.filter{
+.filter,.side-m, .card-part3,.card-part5{
   display: flex;
+}
+.card-part3{
+  margin-top: 20px;
+}
+.h{
+  margin-top: 20px;
+}
+.m{
+  background-color: #3563E9;
+  width: 70%;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+.t{
+  color: #fff;
 }
 .Side-bar{
   width: 20%;
@@ -640,11 +658,204 @@
 .changes{
   width: 100%;
 }
+.side-t{
+  margin: 0 20px;
+}
+.logout{
+  margin-top: 70px;
+}
+.c-card{
+  display: block;
+}
+.card1-main{
+  background-color: #fff;
+}
+.card-part1, .nissan{
+  font-size:22px ;
+  font-weight: 650;
+}
+
+.card-part1{
+margin-bottom: 15px;
+}
+.sport, .no{
+  color: #596780 ;
+  font-size: 16px;
+  font-weight: 500;
+}
+.no{
+  margin-left: 100px;
+}
+.content-car{
+  margin-left: 15px;
+}
+.Cards{
+  font-family: "Plus Jakarta Sans", sans-serif;
+  margin-left: 20px;
+}
+.discount-p, .same-p, .prghs{
+  color: #90A3BF;
+}
+.hdgs{
+  font-weight: 600;
+}
+.car-rents{
+  margin: 30px ;
+}
+.rentals-h{
+  margin-left: 100px;
+}
+.rentals-h{
+  margin-left: 100px;
+}
+.rentals-ha{
+  margin-left: 150px;
+}
+.top-b{
+  color: #3563E9;
+  margin-left: 180px;
+}
+.car-rents{
+  border-bottom: 0.5px solid #e7e8eb;
+  padding-bottom: 20px;
+}
+.colors, .transaction-part{
+  background-color: #fff;
+}
+.colors{
+  margin-bottom: 30px;
+}
+.columns{
+  justify-content: center;
+  display: flex;
+  padding: 30px 0;
+}
+.card1-main, .transaction-part, .colors{
+  padding: 20px 10px;
+  border-radius: 10px;
+}
+.same-p{
+  margin-left: 15px;
+  width: 100%;
+  font-size: 14px;
+}
+.same-h{
+  font-size: 14px;
+  margin-left: 50px;
+}
+.same{
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.h-top{
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.top-i{
+  margin-left: 230px;
+  margin-top: 10px;
+}
+.heads-1{
+  font-size: 24PX;
+  font-weight:700 ;
+}
+.p-middle{
+  color: #90A3BF;
+}
+.middle-t{
+  margin-left: 50px;
+  margin-top: -120px;
+}
+.middle,.page3, .columns{
+  display: flex;
+}
+.columns{
+  background-color: #F6F7F9;
+  width: 80%;
+  flex-wrap: wrap;
+ }
+.card1-main{
+  margin-left: 50px;
+}
+.profile{
+  width: 20%;
+}
+.same-img{
+  margin-top: 8px;
+}
+.discount-price{
+  font-size: 33px;
+  font-weight: 700;
+  margin-left: 30px;
+}
+.card-part5{
+  margin-top: 20px;
+  padding-top: 40px;
+  border-top: 0.5px solid #ebeced;
+}
+.same,.top, .flex, .car-rents, .transaction-h{
+  display: flex;
+}
+.rentals-he{
+  margin-left: 10px;
+}
 @media(max-width:768px){
   .main-sec{
     display: none;
+    width: 0%;
   }
   .side2  {
     width: 100%;
+  }
+}
+@media(max-width:1351px){
+  .colors{
+    margin-top: 20px;
+  }
+  .profile{
+    width: 40%;
+  }
+  .columns{
+    padding-right: 20px;
+  }
+}
+@media(max-width:768px){
+  .profile{
+    display: none;
+  }
+  .page3{
+    background-color: #F6F7F9;
+  }
+  .columns{
+    padding-right: 0px;
+    justify-content: center;
+  }
+  .hdgs, .prghs{
+    font-size: 14px;
+  }
+  .rentals-h{
+    margin-left: 50PX;
+  }
+  .rentals-ha{
+    margin-left: 80px;
+  }
+  .top-b{
+    margin-left: 100px;
+    font-size: 14px;
+  }
+  .h-top{
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 30px;
+  }
+  .top-i{
+    margin-left: 100px;
+  }
+  .middle{
+    flex-direction: column;
+  }
+  .middle-2{
+    margin-top: 50px;
   }
 }

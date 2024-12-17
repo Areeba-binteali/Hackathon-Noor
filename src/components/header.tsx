@@ -25,7 +25,7 @@ export default function Header() {
                                     <input type="search" placeholder="Search something here" />
                                 </div>
                                 <div className="h-i option">
-                                   <Link href="/Filters"><CgOptions /></Link> 
+                                   <Link href="/Filters"><CgOptions /></Link>
                                 </div>
                             </div>
                         </form>
@@ -41,7 +41,7 @@ export default function Header() {
                             <IoMdSettings />
                         </div>
                         <div className="h-ico">
-                            <Image src="/h1.png" alt="image" width="40" height="30" />
+                        <Link href="/profile"><Image src="/h1.png" alt="image" width="40" height="30" /></Link> 
                         </div>
                     </div>
                 </div>
